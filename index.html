@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <script src="dist/index.js"></script>
+  </head>
+  <body>
+    <!-- box要素の判定 -->
+    <div id="box">
+      <div class="vertical">Welcome to <strong>The Box!</strong></div>
+    </div>
+
+    <!-- audioタグへの対応 -->
+    <audio id="se1" src="./resource/sound/silence_1sec.mp3" data-src="./resource/sound/loop1.mp3" controls></audio>
+    <audio id="se2" src="./resource/sound/silence_1sec.mp3" data-src="./resource/sound/loop2.mp3" controls></audio>
+    <audio id="se3" src="./resource/sound/silence_1sec.mp3" data-src="./resource/sound/loop3.mp3" controls></audio>
+    <audio id="se4" src="./resource/sound/silence_1sec.mp3" data-src="./resource/sound/loop1.mp3" controls></audio>
+    <audio id="se5" src="./resource/sound/silence_1sec.mp3" data-src="./resource/sound/loop2.mp3" controls></audio>
+    <audio id="se6" src="./resource/sound/silence_1sec.mp3" data-src="./resource/sound/loop3.mp3" controls></audio>
+    <audio id="se7" src="./resource/sound/silence_1sec.mp3" data-src="./resource/sound/loop1.mp3" controls></audio>
+    <audio id="se8" src="./resource/sound/silence_1sec.mp3" data-src="./resource/sound/loop2.mp3" controls></audio>
+    <audio id="se9" src="./resource/sound/silence_1sec.mp3" data-src="./resource/sound/loop3.mp3" controls></audio>
+    <audio id="se10" src="./resource/sound/silence_1sec.mp3" data-src="./resource/sound/loop1.mp3" controls></audio>
+    <audio id="se11" src="./resource/sound/silence_1sec.mp3" data-src="./resource/sound/loop2.mp3" controls></audio>
+    <audio id="se12" src="./resource/sound/silence_1sec.mp3" data-src="./resource/sound/loop3.mp3" controls></audio>
+
+    <!-- imageタグへの対応 -->
+    <img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="./resource/image/purple_1.png" alt="" height="20" width="20" />
+    <img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="./resource/image/purple_2.png" alt="" height="20" width="20" />
+    <img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="./resource/image/purple_3.png" alt="" height="20" width="20" />
+    <img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="./resource/image/purple_4.png" alt="" height="20" width="20" />
+    <img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="./resource/image/purple_5.png" alt="" height="20" width="20" />
+  </body>
+  <style type="text/css">
+    #box {
+      background-color: rgba(40, 40, 190, 255);
+      border: 4px solid rgb(20, 20, 120);
+      transition: background-color 1s, border 1s;
+      width: 350px;
+      height: 350px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      margin-top: 1000px;
+    }
+
+    .vertical {
+      color: white;
+      font: 32px "Arial";
+    }
+
+    .extra {
+      width: 350px;
+      height: 350px;
+      margin-top: 10px;
+      border: 4px solid rgb(20, 20, 120);
+      text-align: center;
+      padding: 20px;
+    }
+
+    audio, img {
+      display:flex;
+      align-items: center;
+      padding: 5px;
+    }
+
+    img {
+      border: solid 1px #aaa;
+      margin: 5px;
+    }
+  </style>
+</html>

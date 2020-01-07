@@ -1,0 +1,14 @@
+{
+  "name": "test-intersection-observer",
+  "version": "1.0.0",
+  "description": "Learning about how to use IntersectionObserverAPI.",
+  "main": "index.js",
+  "author": "takaoka-kazufumi",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "typescript": "^3.6.3"
+  },
+  "repository": "https://github.com/kazyan-public-jl/test-intersection-observer.git",
+  "private": false
+}
